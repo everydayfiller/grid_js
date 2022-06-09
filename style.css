@@ -12,7 +12,7 @@ div.header {
 
 div.wrapper {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   column-gap: 2px;
   row-gap: 2px;
 }

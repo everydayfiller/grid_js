@@ -1,7 +1,7 @@
 const TITLE = document.getElementById("header");
 const CONTENT = document.getElementById("wrapper");
 const ROW_COUNT = 4;
-const COL_COUNT = 8;
+const COL_COUNT = 5;
 window.addEventListener('DOMContentLoaded', () => {
   console.log("DOM loaded");
   setUp();
