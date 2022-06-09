@@ -1,0 +1,35 @@
+body {
+  font-family: arial;
+  margin: 20px;
+  background-color: #212121;
+  color: #666666;
+}
+
+div.header {
+  font-size: 0.7em;
+  margin-bottom: 1em;
+}
+
+div.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 2px;
+  row-gap: 2px;
+}
+
+div.cell_off {
+  width: auto;
+  padding: 10px;
+  font-size: 0.8em;
+  border-bottom: 1px solid #444444;
+  cursor: pointer;
+}
+
+div.cell_on {
+  width: auto;
+  padding: 10px;
+  font-size: 0.8em;
+  color: #ff0000;
+  border-bottom: 1px solid #ff0000;
+  cursor: pointer;
+}
