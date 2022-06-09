@@ -8,6 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 function setUp() {
+  window.removeEventListener('DOMContentLoaded', () => { });
   TITLE.innerText = "build a grid with javascript";
   buildGrid();
 }
