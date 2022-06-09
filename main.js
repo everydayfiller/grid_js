@@ -20,7 +20,7 @@ function buildGrid() {
       CELL.id = CELL_ID;
       CELL.className = "cell_off";
       CELL.innerText = CELL_ID;
-      CELL.onclick = changeCellState;
+      CELL.addEventListener('click', changeCellState);
       CONTENT.appendChild(CELL);
     }
   }
