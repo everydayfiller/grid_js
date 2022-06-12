@@ -2,13 +2,13 @@ const TITLE = document.getElementById("header");
 const CONTENT = document.getElementById("wrapper");
 const ROW_COUNT = 4;
 const COL_COUNT = 5;
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
   console.log("DOM loaded");
   setUp();
 });
 
 function setUp() {
-  window.removeEventListener('DOMContentLoaded', () => { });
+  window.removeEventListener("DOMContentLoaded", () => {});
   TITLE.innerText = "build a grid with javascript";
   buildGrid();
 }
@@ -21,7 +21,7 @@ function buildGrid() {
       CELL.id = CELL_ID;
       CELL.className = "cell_off";
       CELL.innerText = CELL_ID;
-      CELL.addEventListener('click', changeCellState);
+      CELL.addEventListener("click", changeCellState);
       CONTENT.appendChild(CELL);
     }
   }
