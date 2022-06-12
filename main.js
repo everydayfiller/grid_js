@@ -3,7 +3,7 @@ const CONTENT = document.getElementById("wrapper");
 const ROW_COUNT = 4;
 const COL_COUNT = 5;
 window.addEventListener("DOMContentLoaded", () => {
-  console.log("DOM loaded");
+  // console.log("DOM loaded");
   setUp();
 });
 
@@ -29,8 +29,8 @@ function buildGrid() {
 
 function changeCellState(e) {
   const TARGET = e.target;
-  console.log(TARGET.id);
-  if (TARGET.className != "cell_on") {
+  // console.log(TARGET.id);
+  if (TARGET.className !== "cell_on") {
     TARGET.className = "cell_on";
   } else {
     TARGET.className = "cell_off";
